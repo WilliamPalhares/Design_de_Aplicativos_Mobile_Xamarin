@@ -12,12 +12,16 @@ namespace E_CommerceAPP.Pages {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Curso_Udemy\\Xamarin\\Design_de_Aplicativos_Mobile_Xamarin\\E_CommerceAPP\\E_Comme" +
-        "rceAPP\\Pages\\LoginPage.xaml")]
-    public partial class LoginPage : global::Xamarin.Forms.ContentPage {
+        "rceAPP\\Pages\\MasterPage.xaml")]
+    public partial class MasterPage : global::Xamarin.Forms.MasterDetailPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.NavigationPage Navigator;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(LoginPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MasterPage));
+            Navigator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.NavigationPage>(this, "Navigator");
         }
     }
 }

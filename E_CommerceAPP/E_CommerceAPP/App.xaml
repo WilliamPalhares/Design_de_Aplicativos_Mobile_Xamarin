@@ -21,7 +21,7 @@
             <Color x:Key="FontColor2">#61cfff</Color>
             <Color x:Key="AcentColor2">#57bae5</Color>
             <Color x:Key="BackgroundColor2">#18333f</Color>
-            
+
             <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
         </ResourceDictionary>
     </Application.Resources>
